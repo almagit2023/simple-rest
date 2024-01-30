@@ -123,9 +123,9 @@ app.delete('/products/:id', async (req, res) => {
 })
 
 
-app.listen(port,(error)=>{
-  if(error){
-    console.log("Error occured....", error)
-  }
-  console.log(`Server started at port : ${port}`)
-})
+// app.listen(port,(error)=>{
+//   if(error){
+//     console.log("Error occured....", error)
+//   }
+//   console.log(`Server started at port : ${port}`)
+// })
