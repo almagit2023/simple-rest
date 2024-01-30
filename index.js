@@ -47,6 +47,7 @@ const connectToMongo = async () => {
     });
   } catch (error) {
     console.log("Error connecting to DB");
+    console.log(error)
   }
 };
 
