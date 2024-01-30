@@ -23,9 +23,9 @@ app.get('/api/data', (req, res)=>{
   res.json(jsonData)
 })
 
-
-
-
+app.get('/api/dat2', (req, res)=>{
+  res.json(jsonData)
+})
 
 app.listen(port,(error)=>{
   if(error){
